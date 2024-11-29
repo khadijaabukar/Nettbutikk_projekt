@@ -17,9 +17,9 @@
 <header>
   <nav class="header-container">
     <ul class="nav-links">
-      <li><a href="index.html">Hjem</a></li>
-      <li><a href="Produktside.html">Produkter</a></li>
-      <li class="logo"><a href="index.html">Logo</a></li>
+      <li><a href="/index.html">Hjem</a></li>
+      <li><a href="/Produktside.html">Produkter</a></li>
+      <li class="logo"><a href="/index.html">Logo</a></li>
       <li><a href="#categories">Kategorier</a></li>
       <li><a href="#footer">Kontakt oss</a></li>
     </ul>
@@ -31,7 +31,7 @@
     <ul class="user-actions">
       <li><button aria-label="Brukerkonto"><i class="fa-solid fa-user"></i></button></li>
       <li><button aria-label="Favoritter"><i class="fa-regular fa-heart"></i></button></li>
-      <li><button aria-label="Handlekurv"><i class="fa-solid fa-cart-shopping"></i></button></li>
+      <li><button aria-label="Handlekurv"><a href="/kasseside.html"><i class="fa-solid fa-cart-shopping"></i></a></button></li>
     </ul>
   </nav>
 </header>
@@ -46,7 +46,8 @@
     </div>
   </section>
   <!-- Popular Products Section -->
-  <section class="popular-products">
+  <section class="popular-products" id="products">
+    <a href="Produktside.html">produkt-side</a>
     <h2>Våre mest populære produkter</h2>
     <p>Oppdag det beste av det beste</p>
     <ul class="filter-buttons">
@@ -56,38 +57,38 @@
     </ul>
     <ul class="product-grid">
       <li class="product">
-        <img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 1">
-        <h3>Produktnavn 1</h3>
-        <p>Kr 1999</p>
-      </li>
-      <li class="product">
-        <img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 2">
-        <h3>Produktnavn 2</h3>
-        <p>Kr 1999</p>
-      </li>
-      <li class="product">
-        <img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 3">
-        <h3>Produktnavn 3</h3>
-        <p>Kr 1999</p>
-      </li>
-      <li class="product">
-        <img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 4">
-        <h3>Produktnavn 4</h3>
-        <p>Kr 1999</p>
-      </li>
-      <li class="product">
-        <img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 5">
+        <a href="Produktside.html"><img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 1"></a>
         <h3>Produktnavn 5</h3>
         <p>Kr 1999</p>
       </li>
       <li class="product">
-        <img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 6">
-        <h3>Produktnavn 6</h3>
+        <a href="Produktside.html"><img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 2"></a>
+        <h3>Produktnavn 5</h3>
+        <p>Kr 1999</p>
+      </li>
+      <li class="product">
+        <a href="Produktside.html"><img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 3"></a>
+        <h3>Produktnavn 5</h3>
+        <p>Kr 1999</p>
+      </li>
+      <li class="product">
+        <a href="Produktside.html"><img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 4"></a>
+        <h3>Produktnavn 5</h3>
+        <p>Kr 1999</p>
+      </li>
+      <li class="product">
+        <a href="Produktside.html"><img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 5"></a>
+        <h3>Produktnavn 5</h3>
+        <p>Kr 1999</p>
+      </li>
+      <li class="product">
+        <a href="Produktside.html"><img src="https://picsum.photos/id/1014/350/350" alt="Produktnavn 6"></a>
+        <h3>Produktnavn 5</h3>
         <p>Kr 1999</p>
       </li>
     </ul>
   </section>
-  <section class="popular-categories">
+  <section class="popular-categories" id="categories">
     <h2>Våre mest populære kategorier</h2>
     <p>Oppdag det beste av det beste</p>
     <ul class="categories-grid">
@@ -162,7 +163,7 @@
   </ul>
 </section>
   </main>
-  <footer>
+  <footer id="footer">
     <section class="footer-logo">
       <h4>Logo</h4>
       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
@@ -178,18 +179,19 @@
       <section>
         <h4>Snarveier</h4>
         <ul>
-          <li><a href="#">Produkter</a></li>
-          <li><a href="#">Kategorier</a></li>
+          <li><a href="/Produktside.html">Produkter</a></li>
+          <li><a href="/index.html#categories">Kategorier</a></li>
           <li><a href="#">Kontakt oss</a></li>
+          <li><a href="https://hi-my.sharepoint.com/:x:/r/personal/khadijma_hiof_no/Documents/Mal%20%E2%80%93%20WCAG-sjekkliste%20for%20utfylling%20av%20tilgjengelighetserkl%C3%A6ring%20for%20nettl%C3%B8sning%2024.01.2024.xlsx?d=wcbb2d2e7c66b4c2d808a902c7d38a2e6&csf=1&web=1&e=sNebt4">tilgjengelighetsærlerlig</a></li>
         </ul>
       </section>
       <section>
         <h4>Sosiale medier</h4>
         <ul class="social-links">
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://pinterest.com"><i class="fa-brands fa-pinterest"></i></a></li>
         </ul>
       </section>
     </section>
